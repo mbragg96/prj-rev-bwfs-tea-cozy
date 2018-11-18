@@ -1,0 +1,136 @@
+/* universal styles */
+body {
+  margin: 0;
+  font-family: Helvetica;
+  color: seashell;
+  background-color: black;
+  font-size: 22px;
+  text-align: center;
+}
+
+/* header */
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 69px;
+  background-color: black;
+}
+
+.logo img {
+  height: 50px;
+  margin-left: 10px;
+}
+
+nav {
+  text-align: right;
+  flex-grow: 1;
+}
+
+nav span{
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+/* main content */
+
+.main {
+  padding-top: 69px;
+  opacity: 0.9;
+  width: 1200px;
+  margin: auto;
+}
+
+
+/* mission */
+
+.mission {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 700px;
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+    padding-top: 70px;
+}
+
+.mission .content {
+    margin: auto;
+    background-color: black;
+    width: 100%;
+    color: seashell;
+  }
+
+  h2, h4 {
+    margin: 0px;
+    padding: 10px;
+  }
+
+  /* store */
+
+  .products {
+    height: 700px;
+    width: 1000px;
+    padding-top: 70px;
+    margin: auto;
+  }
+
+  .product-images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .item {
+    padding: 5px;
+  }
+
+  .item img {
+    height: 200px;
+    margin: 10px;
+    display: block;
+  }
+
+  /* locations */
+
+  .locations {
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+    height: 500px;
+    padding-top: 70px;
+    margin: auto;
+  }
+
+  .location-containers {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .location {
+    padding: 10px;
+    margin: 5px 20px;
+    background-color: black;
+    width: 300px;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  /* contact */
+
+  .contact {
+    height: 200px;
+  }
+
+  /* footer */
+
+  footer {
+    padding-left: 20px;
+    text-align: left;
+  }
